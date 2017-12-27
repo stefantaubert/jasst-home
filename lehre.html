@@ -1,0 +1,7 @@
+<?php require_once('config.inc'); seite(__FILE__); ?>
+
+<h1><strong>&Uuml;bung/Praktikum zur H&ouml;heren Mathematik I (f&uuml;r IW,Ch,SK,CC)</strong></h1>
+zur Vorlesung von Herrn Prof. Horst Martini im Wintersemester 2017/18
+<p><?php 
+require_once('tu/inc/lehrveranstaltung.php'); 
+?><?php echo zeigeLehrveranstaltungen(array('name' => '220000-181P OR 220000-181', 'enable_meinplan' => TRUE)); ?></p>

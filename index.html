@@ -1,0 +1,21 @@
+<?php require_once('config.inc'); seite(__FILE__); ?>
+
+
+<h1>Jasmin Sternkopf</h1>
+
+<h3>Anschrift</h3>
+
+<p>Fakult&auml;t f&uuml;r Mathematik<br />
+Technische Universit&auml;t Chemnitz<br />
+09107 Chemnitz</p>
+
+<h3>Erreichbarkeit</h3>
+
+<p>E-Mail: <?php   require_once('php/mail.inc');
+        # Erste Subdomain angezeigt
+           echo prot_mailadr('jasmin.sternkopf@s2014.tu-chemnitz.de', 1);        
+?></p>
+
+<h3>Sprechzeiten</h3>
+
+<p>Ich bin am besten per E-Mail erreichbar.</p>
